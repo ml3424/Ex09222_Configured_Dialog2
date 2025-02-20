@@ -17,7 +17,7 @@
             android:layout_weight="30" />
 
         <Switch
-            android:id="@+id/switch1"
+            android:id="@+id/D_sw"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_weight="100"
@@ -29,13 +29,13 @@
             android:layout_weight="30" />
 
         <EditText
-            android:id="@+id/editTextNumberDecimal2"
+            android:id="@+id/D_eTdorq"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="90"
             android:ems="10"
             android:hint="enter d or q"
-            android:inputType="numberDecimal" />
+            android:inputType="number|numberDecimal|numberSigned" />
 
         <Space
             android:layout_width="match_parent"
@@ -43,13 +43,13 @@
             android:layout_weight="30" />
 
         <EditText
-            android:id="@+id/editTextNumberDecimal"
+            android:id="@+id/D_eTa1"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="90"
             android:ems="10"
             android:hint="enter a1"
-            android:inputType="numberDecimal" />
+            android:inputType="number|numberDecimal|numberSigned" />
     </LinearLayout>
 
 </LinearLayout>
