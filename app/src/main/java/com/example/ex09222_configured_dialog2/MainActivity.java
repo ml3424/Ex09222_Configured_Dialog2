@@ -200,7 +200,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             sum = a1 * (Math.pow(dorq, n) - 1) / (dorq - 1);
         }
 
-        tVSn2.setText(String.format("%.2f", sum)); // two digits after .
+        tVSn2.setText(String.format("%9.5f", sum));
 
     }
 
